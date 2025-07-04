@@ -1,0 +1,30 @@
+# 🔒 Environment config
+.env
+.env.local
+.env.*.local
+
+# 🗂 Node dependencies
+node_modules/
+
+# 🪵 Logs and debug
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# 🧠 System files
+.DS_Store
+Thumbs.db
+
+# 🚧 Build artifacts
+dist/
+.out/
+build/
+
+# 👨‍💻 IDE config
+.vscode/
+.idea/
+
+# 📝 Generated certificates
+certificates/
+temp-avatar.png
